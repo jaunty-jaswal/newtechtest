@@ -4,7 +4,7 @@ from pymongo import MongoClient
 
 
 
-client = MongoClient('mongodb+srv://jaunty:9410993055@mydb.drbzqzi.mongodb.net/')
+client = MongoClient('mongodb+srv://username:pass@mydb.drbzqzi.mongodb.net/')
 db = client.kafkadb
 colletion = db.kafkacollection
 # Create an instance of the Kafka consumer
