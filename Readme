@@ -1,0 +1,2 @@
+This project will run the kafka server and zookeeper on docker , and we can use python to consume and produce messages, also those will be stored into  database 
+run --> docker-compose up first
